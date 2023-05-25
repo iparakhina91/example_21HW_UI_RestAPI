@@ -6,6 +6,7 @@ import com.codeborne.selenide.logevents.SelenideLogger;
 import config.WebDriverConfig;
 import config.AuthConfig;
 import helpers.Attach;
+import io.qameta.allure.junit5.AllureJunit5;
 import io.qameta.allure.selenide.AllureSelenide;
 import io.restassured.RestAssured;
 import models.CreateTestCaseBody;
@@ -14,6 +15,7 @@ import org.aeonbits.owner.ConfigFactory;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.BeforeEach;
+
 import org.openqa.selenium.remote.DesiredCapabilities;
 
 import java.util.Map;
